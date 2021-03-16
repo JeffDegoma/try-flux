@@ -10,7 +10,7 @@ spec:
   wait: false
   forceUpgrade: false
   chart:
-    repository: https://hub.helm.sh/charts/fluent/fluentd
+    repository: https://fluent.github.io/helm-charts
     version: 0.2.2
   values:
     replicas: 1
