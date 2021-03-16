@@ -1,18 +1,16 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: rabbit
+  name: fluent
   namespace: default
 spec:
-  releaseName: rabbitmq
-  targetNamespace: mq
+  helmVersion: 3
   timeout: 300
   resetValues: false
   wait: false
   forceUpgrade: false
   chart:
-    git: git@github.com:fluxcd/flux-get-started
-    ref: master
-    path: charts/ghost
+    repository: https://hub.helm.sh/charts/fluent/fluentd
+    version: 0.2.2
   values:
     replicas: 1
