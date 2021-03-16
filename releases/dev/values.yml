@@ -11,6 +11,7 @@ spec:
   forceUpgrade: false
   chart:
     repository: https://fluent.github.io/helm-charts
+    name: fluent/fluentd
     version: 0.2.2
   values:
     replicas: 1
