@@ -8,7 +8,7 @@ spec:
   releaseName: fluent-local
   chart:
     repository: https://charts.bitnami.com/bitnami
-    name: bitnami/fluentd
+    name: fluentd
     version: 3.6.2
   values:
     replicas: 1
