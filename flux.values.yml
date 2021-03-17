@@ -106,7 +106,7 @@ git:
   # Also configure state.mode to `secret` since storing state in a git tag will no longer be possible.
   readonly: true
   # Username to use as git commitfter
-  user: "Weave Flux"
+  user: "JeffDegoma"
   # Email to use as git committer
   email: "jhdegoma@hotmail.com"
   # If set, commits will be signed with this GPG key.

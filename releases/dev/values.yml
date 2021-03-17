@@ -5,10 +5,6 @@ metadata:
   namespace: default
 spec:
   helmVersion: 3
-  timeout: 300
-  resetValues: false
-  wait: false
-  forceUpgrade: false
   chart:
     repository: https://fluent.github.io/helm-charts
     name: fluent/fluentd
