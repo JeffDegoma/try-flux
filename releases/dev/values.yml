@@ -4,7 +4,8 @@ metadata:
   name: fluent
   namespace: default
 spec:
-  helmVersion: 3
+  helmVersion: "v3"
+  releaseName: fluent-local
   chart:
     repository: https://fluent.github.io/helm-charts
     name: fluent/fluentd
