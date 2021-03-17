@@ -1,14 +1,14 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: fluent
+  name: bitnami/fluentd
   namespace: default
 spec:
   helmVersion: "v3"
   releaseName: fluent-local
   chart:
-    repository: https://fluent.github.io/helm-charts
-    name: fluent/fluentd
-    version: 0.2.2
+    repository: https://charts.bitnami.com/bitnami
+    name: bitnami/fluentd
+    version: 3.6.2
   values:
     replicas: 1
